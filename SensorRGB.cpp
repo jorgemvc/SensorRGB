@@ -19,6 +19,7 @@ void SensorRGB::getRGBColor() {
   _tcs.getRawData(&_r, &_g, &_b, &_c);
   _tcs.setInterrupt(true);
   
+  // Convierte los valores obtenidos a valores RGB (0-255)
   _red = _r; _red /= _c; _red *= 256;
   _green = _g; _green /= _c; _green *= 256;
   _blue = _b; _blue /= _c; _blue *= 256;
@@ -40,6 +41,8 @@ uint16_t SensorRGB::Clear(){
   return _c;
 }  // uint16_t Clear()
 
+// Calcula la distancia euclidiana del color detectado
+// con el color RGB pasado como parametro
 float SensorRGB::Diff(
   uint16_t r, uint16_t g, uint16_t b
 ) {
