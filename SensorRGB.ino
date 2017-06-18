@@ -58,7 +58,7 @@ void loop() {
 
 String getColor() {
   int indice = -1;
-  int dist = 1000,
+  int dist = 10000,
       aux;
   
   // Calcula la distancia entre el color detectado y los
