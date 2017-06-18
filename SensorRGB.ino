@@ -1,8 +1,8 @@
 /* DESCRIPCION
- *   Programa para manejar un carrito con un sensor ultrasonico.
+ *   Programa para manejar un sensor de color RGB.
  *   
  * MODIFICACIONES
- *   J.Villalobos  03.Jun.2017  Creación
+ *   J.Villalobos  16.Jun.2017  Creación
  */
 // ---- Bibliotecas
 #include "SensorRGB.h"
