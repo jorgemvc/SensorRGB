@@ -1,6 +1,9 @@
 /* DESCRIPCION
  *   Programa para manejar un sensor de color RGB.
  *   
+ * NOTAS
+ *   Repositorio: https://github.com/jorgemvc/SensorRGB
+ *
  * MODIFICACIONES
  *   J.Villalobos  16.Jun.2017  Creación
  */
